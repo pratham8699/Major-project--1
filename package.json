@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start":"node index.js"
+    "start": "nodemon index.js"
   },
   "author": "Pratham miglani",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
-    "install": "^0.13.0"
+    "install": "^0.13.0",
+    "mongoose": "^7.3.1"
   }
 }

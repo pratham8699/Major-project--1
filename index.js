@@ -1,7 +1,9 @@
 // console.log("pratham");
 const express = require('express');
+const db = require('./config/mongoose');
 const app = express();
 const port = 8000;
+
 app.use('/',require('./routes/index'));
 app.listen(port,(err)=>{
     if(err){

@@ -2,7 +2,7 @@
 const express = require('express');
 const db = require('./config/mongoose');
 const app = express();
-const port = 8000;
+const port = 27017;
 
 app.use('/',require('./routes/index'));
 app.listen(port,(err)=>{
